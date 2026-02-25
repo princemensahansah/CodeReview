@@ -7,10 +7,12 @@ I am currently working on a metabolonmics studies on dinoflagellate specifically
 
 ## Title of publication
 
-**`Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline`**
-[DOi](https://doi.org/10.1371/journal.pcbi.1011912)
-[Github Page](https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics)
+**Common data models to streamline metabolomics processing and annotation, and implementation in a Python pipeline**
+
++ [DOi](https://doi.org/10.1371/journal.pcbi.1011912)
+
++ [Github Page](https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics)
 
 ## Publication
 
-The article for review can be found ![here](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011912)
+The article for review can be found **[here]**(https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1011912)
