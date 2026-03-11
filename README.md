@@ -20,3 +20,8 @@ The article for review can be found **[here]**(https://journals.plos.org/ploscom
 
 # REVIEW
 The code review of this publication is can be found below
+
+## Directory organization
+Directory organization eases a users ability to find the script for file. The program was well organized into various directories to allow easy access to file and director. Another good observation was that, the developer followed all the good coding practices for naming directories. All directories are essentially named with **lowercases** and where neccesary underscores were used. Find a snapshot of the directory organization below.
+
+![directory organization](./directory_organization.png)
