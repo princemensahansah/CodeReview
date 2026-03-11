@@ -35,7 +35,34 @@ Directory organization eases a users ability to find the script for file. The pr
 
 ![directory organization](./directory_organization.png)
 
-## Access and intallation of program
+## Access, intallation, and Documentation
+The **README** provides a comprehensive documentation about what the program is about. It states clearly what input files (eg. .raw, .mzML) files are supported. It also provides a quick summary of what goes on under the hood and explicitly mention what the output file look like (eg. .txt, .JSON). The type of normalization and batch correction used in the analysis are explicitly mentioned in the readme file as well as the type of databases (eg. HMDB, LIPID MAP) and libraries supported.
+
+he author provides a pictorial/ graphical workflow summarizing the sequence of event in the analyzes process. The directory structure is clearly indicated.
+
+The author also provides clear instructions how to install the tool using **pip** and also manually
+
+```pip insall pcpfm``
+```pip install -e . ```  or ```pip install .```
+
+The author also provides the most basic usage syntax of the tool. This I think is very essential to help those user who are not familiar with the tool.
+
+```pcpfm preprocess -s ./Sequence.csv --new_csv_path ./NewSequence.csv --name_field='Name' --path_field='Path' --preprocessing_config ./pcpfm/prerpocessing.json```
+
+Some of the challenges user face when using tools like this, is how to organize the input data in a way that's compatible with the user. The developer does well by providing an example csv file format for imput file.
+
+| Sample Type | Name             | Filepath                           |
+|-------------|-----------------|-----------------------------------|
+| Blank       | SZ_01282024_01  | my_experiment/SZ_01282024_01.raw |
+| QC          | SZ_01282024_07  | my_experiment/SZ_01282024_07.raw |
+| Unknown     | SZ_01282024_13  | my_experiment/SZ_01282024_13.raw |
+| ...         | ...             | ...                               |
+
+
+Overall, the developer provides a comprehensive instructions and documention on how to install, use, and fix common errors that arrives through improper input file formats etc.
+This documentation provides an easy to understand instruction which makes it easy to start using the file right away.
+
+However, what I didn't see in the documention was how installation works on different environments and operationg system. Since this tool is not using a `docker image` or `containerization` for packaging the tool. I was expecting to see how installation works on other environments such as `windows`, `clusters`, etc.
 
 ## File organization and extention
 
