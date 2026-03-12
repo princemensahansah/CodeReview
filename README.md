@@ -48,10 +48,17 @@ pip insall pcpfm
 
 ```
 pip install -e .
+```  
 
-```  or 
+or 
+
+
+
+
+
 ```
 pip install .
+
 ```
 
 The author also provides the most basic usage syntax of the tool. This I think is very essential to help those user who are not familiar with the tool.
