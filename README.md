@@ -42,9 +42,17 @@ The author provides a pictorial/ graphical workflow summarizing the sequence of 
 
 The author also provides clear instructions how to install the tool using **pip** and also manually
 
-```pip insall pcpfm```
+```
+pip insall pcpfm
+```
 
-```pip install -e .```  or ```pip install .```
+```
+pip install -e .
+
+```  or 
+```
+pip install .
+```
 
 The author also provides the most basic usage syntax of the tool. This I think is very essential to help those user who are not familiar with the tool.
 
