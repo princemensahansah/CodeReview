@@ -119,7 +119,7 @@ Again, the program in the `helper_scripts()` directory.
 - block_designer.py
 - randomizer.py
 ```
-The code in the programs above do noy have `docstrings`.
+The code in the programs above do not have `docstrings`.
 
 ![Docstrings](./screenshots/nodocstrings.png)
 
