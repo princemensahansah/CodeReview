@@ -35,7 +35,7 @@ Directory organization eases a users ability to find the script for file. The pr
 
 ![directory organization](./screenshot/directory_organization.png)
 
-## Access, intallation, and Documentation
+## Access, Installation, and Documentation
 The **README** provides a comprehensive documentation about what the program is about. It states clearly what input files (eg. .raw, .mzML) files are supported. It also provides a quick summary of what goes on under the hood and explicitly mention what the output file look like (eg. .txt, .JSON). The type of normalization and batch correction used in the analysis are explicitly mentioned in the readme file as well as the type of databases (eg. HMDB, LIPID MAP) and libraries supported.
 
 The author provides a pictorial/ graphical workflow summarizing the sequence of event in the analyzes process. The directory structure is clearly indicated.
