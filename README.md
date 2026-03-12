@@ -81,6 +81,7 @@ This documentation provides an easy to understand instruction which makes it eas
 However, what I didn't see in the documention was how installation works on different environments and operationg system. Since this tool is not using a `docker image` or `containerization` for packaging the tool. I was expecting to see how installation works on other environments such as `windows`, `clusters`, etc.
 
 ## File organization and extention
+All the files have been carefully organized into respective directories. Every file has their respective extensions (`.py`,`.in`,`.json`,`.md`). Except for the license file, every file has got an extension.
 
 ## Adherence to good programming practices
 The assessment of good programming practices were done on the main program. The python program in the [pcpfm directory](https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics/tree/main/pcpfm) were carefully assessed for good coding practices.
