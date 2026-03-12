@@ -87,10 +87,12 @@ The assessment of good programming practices were done on the main program. The 
 
 The python program were carefully grouped in classes and modulized. The writing of the program into modules was excellent.
 
-### Functions
+### Functions and Variables
 The program has been written in to `function`. Each function does just one thing and `return` a value.
 #### Doctrings
 All the functions have `doctrings`. The doctrings have been clearly written with description of the function, argument, and return values.
+#### Naming of variables and function
+The functions and variables are clearly being named. The names of variables and functions are descriptive and aligns with what the function does. All the `pythonic` conventions for naming variables and functions followed.
 
 ```
 - Acquisition.py
