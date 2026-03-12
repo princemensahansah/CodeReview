@@ -33,7 +33,7 @@ The information below constitutes the review of the [above publication](#publica
 ## Directory organization
 Directory organization eases a users ability to find the script for file. The program was well organized into various directories to allow easy access to file and director. Another good observation was that, the developer followed all the good coding practices for naming directories. All directories are essentially named with **lowercases** and where neccesary underscores were used. Find a snapshot of the directory organization below.
 
-![directory organization](./directory_organization.png)
+![directory organization](./screenshot/directory_organization.png)
 
 ## Access, intallation, and Documentation
 The **README** provides a comprehensive documentation about what the program is about. It states clearly what input files (eg. .raw, .mzML) files are supported. It also provides a quick summary of what goes on under the hood and explicitly mention what the output file look like (eg. .txt, .JSON). The type of normalization and batch correction used in the analysis are explicitly mentioned in the readme file as well as the type of databases (eg. HMDB, LIPID MAP) and libraries supported.
@@ -91,6 +91,8 @@ The python program were carefully grouped in classes and modulized. The writing 
 The program has been written in to `function`. Each function does just one thing and `return` a value.
 #### Doctrings
 All the functions have `doctrings`. The doctrings have been clearly written with description of the function, argument, and return values.
+![Docstrings](./screenshots/Doctrings.png)
+
 #### Naming of variables and function
 The functions and variables are clearly being named. The names of variables and functions are descriptive and aligns with what the function does. All the `pythonic` conventions for naming variables and functions followed.
 
@@ -117,7 +119,9 @@ Again, the program in the `helper_scripts()` directory.
 - block_designer.py
 - randomizer.py
 ```
-The code in the programs above didn't have `docstrings`.
+The code in the programs above do noy have `docstrings`.
+
+![Docstrings](./screenshots/nodocstrings.png)
 
 ## Area of improvement
 The program, though, have `docstrings` do not have `#` comments. This makes reading of the program quit difficult if you do not have background in metabolomics.
