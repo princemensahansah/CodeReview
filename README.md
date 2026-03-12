@@ -3,7 +3,7 @@ This repository is part of the requirement for BIOL7180-EA1 at Auburn University
 
 
 # Publication for Review
-I am currently working on a metabolonmics studies on dinoflagellate specifically Pyrocystis **formis** and Pyrocystis **lunula**. This will be a great opportunity to work on a scripts that analyse such data.
+I am currently working on a metabolomics studies on dinoflagellate specifically Pyrocystis **formis** and Pyrocystis **lunula**. This will be a great opportunity to work on a scripts that analyse such data.
 
 ## Title of publication
 
@@ -33,7 +33,7 @@ The information below constitutes the review of the [above publication](#publica
 ## Directory organization
 Directory organization eases a user's ability to find the script for files. The program was well organized into various directories to allow easy access to files and directories. Another good observation was that, the developer followed all the good coding practices for naming directories. All directories are essentially named with **lowercases** and where neccesary underscores were used. Find a snapshot of the directory organization below.
 
-![directory organization](./screenshot/directory_organization.png)
+![directory organization](https://github.com/princemensahansah/CodeReview/blob/main/screenshots/directory_organization.png)
 
 ## Access, Installation, and Documentation
 The **README** provides a comprehensive documentation about what the program is about. It states clearly what input files (eg. .raw, .mzML) files are supported. It also provides a quick summary of what goes on under the hood and explicitly mention what the output file look like (eg. .txt, .JSON). The type of normalization and batch correction used in the analysis are explicitly mentioned in the readme file as well as the type of databases (eg. HMDB, LIPID MAP) and libraries supported.
