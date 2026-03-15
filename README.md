@@ -125,7 +125,7 @@ The code in the programs above do not have `docstrings`.
 ![Docstrings](./screenshots/nodocstrings.png)
 
 ## Area of improvement
-The program, though, have `docstrings` do not have `#` comments. This makes reading of the program quit difficult if you do not have background in metabolomics.
+The program, though, have `docstrings` do not have `#` comments. This makes reading of the program quit difficult if you do not have background in metabolomics. The arguments in the functions do not also contain the type. Also, there is not indication of the type of data the function returns in the function definition.
 
 ## Comment on overall reproducibility of code
 The code is overall greatly reproducible and easy to understand.
