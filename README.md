@@ -3,7 +3,7 @@ This repository is part of the requirement for BIOL7180-EA1 at Auburn University
 
 
 # Publication for Review
-I am currently working on a metabolonmics studies on dinoflagellate specifically Pyrocystis **formis** and Pyrocystis **lunula**. This will be a great opportunity to work on a scripts that analyse such data.
+I am currently working on a metabolomics studies on dinoflagellate specifically Pyrocystis **formis** and Pyrocystis **lunula**. This will be a great opportunity to work on a scripts that analyse such data.
 
 ## Title of publication
 
@@ -23,7 +23,7 @@ The information below constitutes the review of the [above publication](#publica
 
 ## **Table of Content**
 - [Directory organization](#directory-organization)
-- [Access and intallation of program](#access-and-intallation-of-program)
+- [Access and installation of program](#access-and-installation-of-program)
 - [File organization and extention](#file-organization-and-extention)
 - [Adherence to good programming practices](#adherence-to-good-programming-practices)
 - [Area of improvement ](#area-of-improvement)
@@ -31,9 +31,9 @@ The information below constitutes the review of the [above publication](#publica
 - [Concluding remarks](#concluding-remarks)
 
 ## Directory organization
-Directory organization eases a users ability to find the script for file. The program was well organized into various directories to allow easy access to file and director. Another good observation was that, the developer followed all the good coding practices for naming directories. All directories are essentially named with **lowercases** and where neccesary underscores were used. Find a snapshot of the directory organization below.
+Directory organization eases a user's ability to find the script for files. The program was well organized into various directories to allow easy access to files and directories. Another good observation was that, the developer followed all the good coding practices for naming directories. All directories are essentially named with **lowercases** and where neccesary underscores were used. Find a snapshot of the directory organization below.
 
-![directory organization](./screenshot/directory_organization.png)
+![directory organization](https://github.com/princemensahansah/CodeReview/blob/main/screenshots/directory_organization.png)
 
 ## Access, Installation, and Documentation
 The **README** provides a comprehensive documentation about what the program is about. It states clearly what input files (eg. .raw, .mzML) files are supported. It also provides a quick summary of what goes on under the hood and explicitly mention what the output file look like (eg. .txt, .JSON). The type of normalization and batch correction used in the analysis are explicitly mentioned in the readme file as well as the type of databases (eg. HMDB, LIPID MAP) and libraries supported.
@@ -43,7 +43,7 @@ The author provides a pictorial/ graphical workflow summarizing the sequence of 
 The author also provides clear instructions how to install the tool using **pip** and also manually
 
 ```
-pip insall pcpfm
+pip install pcpfm
 ```
 
 ```
@@ -86,7 +86,7 @@ All the files have been carefully organized into respective directories. Every f
 ## Adherence to good programming practices
 The assessment of good programming practices were done on the main program. The python program in the [pcpfm directory](https://github.com/shuzhao-li-lab/PythonCentricPipelineForMetabolomics/tree/main/pcpfm) were carefully assessed for good coding practices.
 
-The python program were carefully grouped in classes and modulized. The writing of the program into modules was excellent.
+The Python programs were carefully grouped in classes and modulized. The writing of the program into modules was excellent.
 
 ### Functions and Variables
 The program has been written in to `function`. Each function does just one thing and `return` a value.
